@@ -1,0 +1,118 @@
+
+/*-------table desiging----------*/
+.client-header{
+    margin-top: -2%;
+    background-color: rgb(240,242,245);
+}
+
+.add-button
+{
+    margin-left: 87% !important;
+}
+.Completed-style
+{
+    color: green;
+    border: 1px solid green;
+    padding: 2%;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90px;
+    text-align: center;
+}
+.Current-style
+{
+    
+    border: 1px solid yellow;
+    padding: 2%;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90px;
+    text-align: center;
+}
+
+.Cancelled-style
+{
+    color: red;
+    border: 1px solid red;
+    padding: 2%;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90px;
+    text-align: center;
+}
+
+/* .gridbot{
+    text-align: justify;
+} */
+
+.css-r11z79-MuiDataGrid-root
+{
+    /* font-family: 'sanserif' !important; */
+    background-color: aliceblue !important;
+
+}
+
+
+/* ---------dialoguebox width-------------- */
+.css-hz1bth-MuiDialog-container {
+
+    width: 600px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
+
+}
+
+/*-------Add client Dailoguebox-------*/
+.Address{
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    padding-left: 2px;
+    box-sizing: content-box;
+    background: none;
+    margin-top: 15px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.description{
+    
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    padding-left: 2px;
+    box-sizing: content-box;
+    background: none;
+    margin-top: 15px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.css-1633um2-MuiPaper-root {
+    box-shadow: none !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper
+{
+    width: 600px !important;
+}
+
+span
+{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+/* view dialogue box alignment */
+.gridbot{
+    box-shadow: none !important;
+}
+
+/* number using without scroable */
+
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}

@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+.form-container {
+  min-width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.login-image {
+  /* margin: 0 auto;
+    opacity: 0.75;
+    height: 100vh;
+    position: relative; */
+  /* padding: 5px; */
+  min-width: 100%;
+  min-height: 100vh;
+  display: block;
+  opacity: 0.77;
+  background-color: #999999;
+  background-image: url("large.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+
+.form {
+  position: absolute;
+  min-width: 400px;
+  /* height: 425px; */
+  /* outline: 2px solid rgba(128, 128, 128, 0.288);s */
+  /* background-color: red; */
+  /* background: transparent; */
+  background-color: rgba(255, 255, 255, 0.774);
+
+  padding-top: 25px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.form * {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.helper {
+  margin-bottom: 15px !important;
+}
+
+.form .login-header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(0, 153, 255);
+}
+
+.form .btn {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#outlined-basic {
+  background-color: rgba(184, 223, 228, 0.301);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+  .form {
+    min-width: 350px;
+    /* max-height: 400px; */
+    padding-bottom: 28px;
+  }
+
+  .form .btn {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .form {
+    min-width: 300px;
+    /* max-height: 400px; */
+    padding-bottom: 28px;
+  }
+}

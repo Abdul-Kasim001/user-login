@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+.additem{
+    margin-left: 80%;
+}
+
+.completed-Styles{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid green;
+    text-align: center;
+    border-radius: 5px;
+    color: green;
+}
+
+.postponed-style{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid rgb(201, 201, 6);
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(195, 195, 41, 0.823);
+}
+
+.rejected-style{
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px; 
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+}
+
+.first{
+    margin-left: 90%;
+    border: 2px solid;
+    border-radius: 9;
+    padding: 3px;
+    border-radius: 6px;
+    width: 30px;
+}
+.firstcontent{
+    height: 60vh;
+    width: 97%;
+    margin-left: 21%;
+    background-color: #f0f2f5;
+    margin-top: -3%;
+}
+.second-content {
+    margin-left: 85%;
+    
+}
+
+
+@media (min-width:320px) and (max-width:426px) {
+.firstcontent{
+        height: 61vh;
+        width: 110%;
+        margin-left: 5%;
+        background-color: rgb(240, 242, 245);
+        margin-top: -16%;
+        
+}
+.second-content {
+    margin-left: 66%;
+}
+.react-confirm-alert-body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 20px 75px rgb(0 0 0 / 13%);
+    color: #666;
+}
+
+}
+
+

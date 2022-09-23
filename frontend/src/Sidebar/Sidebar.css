@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+.logicbee{
+    margin-left: 10%;
+}
+
+.tracking-nav-link {
+    font-family: poppins;
+    color: black;
+    font-size: 17px;
+    width: 100%;
+    display: flex;
+    padding: 8px;
+}
+  
+  .tracking-nav-link:hover {
+    border-right: 5px solid #8d3854;
+    background-color: #e6e0e0;
+    color: #000000;
+    border-radius: 4px;
+  }
+  .tracking-nav-link.active {
+    border-radius: 4px;
+    background-color: #e6e0e0;
+  } 
+
+
+@media (min-width:320px) and (max-width:426px) {
+   .logicbee{
+    margin-left: -25%;
+   }
+}
+
